@@ -16,4 +16,5 @@ public class Etiqueta {
 	private Long etiquetaID;
 	private String muestraID;
 	private String codigoBarras;
+	private String pacienteID;
 }

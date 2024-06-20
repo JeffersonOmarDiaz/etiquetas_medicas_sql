@@ -21,7 +21,6 @@ public class Departamento {
 	private Long departamentoId;
 	private String nombre;
 	private String descripcion;
+	private String especialidad;
 	
-	@OneToMany(mappedBy = "departamentoId")
-	private List<AsignacionMuestra> asignaciones;
 }
